@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Página-1" id="rbNnMFnWccuV78RtdqJZ">
+    <mxGraphModel dx="1453" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-1" value="Diagrama de actividades: del rescate al seguimiento postadopción" style="text;html=1;align=center;verticalAlign=middle;fontSize=21;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="900" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-2" value="" style="ellipse;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-3" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Recibir reporte de animal&lt;br&gt;en peligro&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="600" y="215" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-4" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Registrar rescate, ubicación&lt;br&gt;y condición inicial&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="600" y="305" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-5" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Crear registro mediante&lt;br&gt;Factory Method&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="600" y="405" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-6" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Actualizar estado: Rescatado&lt;br&gt;y notificar responsables&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="600" y="495" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-7" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;¿Necesita atención&lt;br&gt;veterinaria?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="630" y="595" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-8" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Registrar revisión, vacunas&lt;br&gt;y tratamiento&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="890" y="615" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-9" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Registrar cuidados diarios&lt;br&gt;y actualizar estado&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="600" y="735" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-10" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;¿Está listo para&lt;br&gt;adopción?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="630" y="830" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-11" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Publicar como disponible;&lt;br&gt;recibir solicitud de adopción&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="890" y="840" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-12" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Evaluar solicitud y registrar&lt;br&gt;la adopción aprobada&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="890" y="935" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-13" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Registrar seguimiento por&lt;br&gt;llamada, mensaje o visita&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="600" y="965" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-14" value="" style="ellipse;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1055" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-2" target="V-N6-9nbNYHpNpuCgkFL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-3" target="V-N6-9nbNYHpNpuCgkFL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-4" target="V-N6-9nbNYHpNpuCgkFL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-5" target="V-N6-9nbNYHpNpuCgkFL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-6" target="V-N6-9nbNYHpNpuCgkFL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-20" value="Sí" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-7" target="V-N6-9nbNYHpNpuCgkFL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-21" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-7" target="V-N6-9nbNYHpNpuCgkFL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-8" target="V-N6-9nbNYHpNpuCgkFL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-9" target="V-N6-9nbNYHpNpuCgkFL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-24" value="Sí" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-10" target="V-N6-9nbNYHpNpuCgkFL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-25" value="No: continuar cuidados" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-10" target="V-N6-9nbNYHpNpuCgkFL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-11" target="V-N6-9nbNYHpNpuCgkFL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-12" target="V-N6-9nbNYHpNpuCgkFL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-N6-9nbNYHpNpuCgkFL-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="V-N6-9nbNYHpNpuCgkFL-13" target="V-N6-9nbNYHpNpuCgkFL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
