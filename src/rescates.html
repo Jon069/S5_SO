@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Listado de casos de rescate registrados en SICRA.">
+  <title>Casos registrados | SICRA - Control de Rescate y Adopción</title>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo de SICRA" width="64" height="64">
+    <h1>SICRA</h1>
+    <p>Sistema de Control de Rescate y Adopción Animal</p>
+
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="reportar.html">Reportar rescate</a></li>
+        <li><a href="rescates.html" aria-current="page">Casos registrados</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section aria-labelledby="titulo-listado">
+      <h2 id="titulo-listado">Casos de rescate registrados</h2>
+      <p>
+        Historial de casos ingresados al refugio. Para registrar uno nuevo ve a
+        <a href="reportar.html">Reportar rescate</a>.
+      </p>
+
+      <article>
+        <table border="1">
+          <caption>Listado de casos de rescate</caption>
+          <thead>
+            <tr>
+              <th scope="col">N.º</th>
+              <th scope="col">Caso</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Ubicación</th>
+              <th scope="col">Fecha</th>
+              <th scope="col">Urgencia</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Responsable</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">001</th>
+              <td>Rocky</td>
+              <td>Perros</td>
+              <td>Av. Principal, sector sur</td>
+              <td><time datetime="2026-11-05">05/11/2026</time></td>
+              <td>Alta</td>
+              <td>En atención veterinaria</td>
+              <td>Dra. Pérez</td>
+            </tr>
+            <tr>
+              <th scope="row">002</th>
+              <td>Luna</td>
+              <td>Gatos</td>
+              <td>Parque central</td>
+              <td><time datetime="2026-11-02">02/11/2026</time></td>
+              <td>Media</td>
+              <td>Disponible para adopción</td>
+              <td>Carlos Mora</td>
+            </tr>
+            <tr>
+              <th scope="row">003</th>
+              <td>Búho de campanario</td>
+              <td>Fauna Silvestre</td>
+              <td>Zona rural, vía a la costa</td>
+              <td><time datetime="2026-11-08">08/11/2026</time></td>
+              <td>Alta</td>
+              <td>En rescate</td>
+              <td>Ana Torres</td>
+            </tr>
+            <tr>
+              <th scope="row">004</th>
+              <td>Gato naranja herido</td>
+              <td>Gatos</td>
+              <td>Sector norte</td>
+              <td><time datetime="2026-11-10">10/11/2026</time></td>
+              <td>Alta</td>
+              <td>Reportado</td>
+              <td>Sin asignar</td>
+            </tr>
+            <tr>
+              <th scope="row">005</th>
+              <td>Manchas</td>
+              <td>Perros</td>
+              <td>Mercado municipal</td>
+              <td><time datetime="2026-10-28">28/10/2026</time></td>
+              <td>Baja</td>
+              <td>Adoptado</td>
+              <td>Carlos Mora</td>
+            </tr>
+            <tr>
+              <th scope="row">006</th>
+              <td>Pico Azul</td>
+              <td>Aves</td>
+              <td>Plaza San Francisco</td>
+              <td><time datetime="2026-11-07">07/11/2026</time></td>
+              <td>Media</td>
+              <td>En atención veterinaria</td>
+              <td>Dra. Pérez</td>
+            </tr>
+            <tr>
+              <th scope="row">007</th>
+              <td>Copito</td>
+              <td>Conejos y roedores</td>
+              <td>Urbanización Los Álamos</td>
+              <td><time datetime="2026-11-06">06/11/2026</time></td>
+              <td>Baja</td>
+              <td>Disponible para adopción</td>
+              <td>Ana Torres</td>
+            </tr>
+            <tr>
+              <th scope="row">008</th>
+              <td>Iguana verde</td>
+              <td>Reptiles y anfibios</td>
+              <td>Parque Samanes</td>
+              <td><time datetime="2026-11-04">04/11/2026</time></td>
+              <td>Media</td>
+              <td>En rescate</td>
+              <td>Luis Andrade</td>
+            </tr>
+            <tr>
+              <th scope="row">009</th>
+              <td>Canela</td>
+              <td>Caballos y equinos</td>
+              <td>Camino rural, km 12</td>
+              <td><time datetime="2026-11-03">03/11/2026</time></td>
+              <td>Alta</td>
+              <td>En atención veterinaria</td>
+              <td>Dr. Salazar</td>
+            </tr>
+            <tr>
+              <th scope="row">010</th>
+              <td>Pepa</td>
+              <td>Animales de granja</td>
+              <td>Mercado de abastos</td>
+              <td><time datetime="2026-10-30">30/10/2026</time></td>
+              <td>Baja</td>
+              <td>Adoptado</td>
+              <td>Carlos Mora</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+
+    <section aria-labelledby="titulo-estados">
+      <h2 id="titulo-estados">Estados de un caso</h2>
+      <article>
+        <h3>Flujo del rescate</h3>
+        <ol>
+          <li>Reportado</li>
+          <li>En rescate</li>
+          <li>En atención veterinaria</li>
+          <li>Disponible para adopción</li>
+          <li>Adoptado</li>
+        </ol>
+      </article>
+    </section>
+
+    <section aria-labelledby="titulo-urgencia">
+      <h2 id="titulo-urgencia">Niveles de urgencia</h2>
+      <article>
+        <h3>Leyenda</h3>
+        <dl>
+          <dt>Alta</dt>
+          <dd>Requiere atención médica inmediata.</dd>
+          <dt>Media</dt>
+          <dd>Necesita evaluación veterinaria en pocos días.</dd>
+          <dt>Baja</dt>
+          <dd>Sin riesgo inmediato; seguimiento regular.</dd>
+        </dl>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 SICRA – Sistema de Control de Rescate y Adopción Animal.</p>
+    <address>
+      Contacto: <a href="mailto:contacto@sicra.example">contacto@sicra.example</a> |
+      Tel.: 04 000 0000 | Guayaquil, Ecuador
+    </address>
+  </footer>
+
+</body>
+</html>
